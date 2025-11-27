@@ -31,6 +31,7 @@ while true; do
 
         echo "$timestamp,$site,$status" >> /data/status.csv
         echo "$timestamp,$site,$status" >> /data/debug.log
+        
     done
 
     # Проверяем: если текущее время совпадает с REPORT_TIME и отчёт ещё не отправлялся сегодня
